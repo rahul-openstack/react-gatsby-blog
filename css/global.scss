@@ -1,0 +1,71 @@
+@import "_variables";
+
+// Makes it too thin IMO
+// *,
+// *:after,
+// *:before {
+  // box-sizing: border-box;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
+  // font-smoothing: antialiased;
+  // text-rendering: optimizeLegibility;
+// }
+
+a {
+  text-decoration: none;
+  color: $link;
+
+  &:hover {
+    color: $black;
+  }
+}
+
+html {
+  overflow-y: auto;
+}
+
+// Rahul Srivastava : changes specific to slider menu, will be moved
+.bm-menu-wrap{
+  margin-left: -250px;
+}
+
+.bm-burger-button{
+  margin-top: 45px;
+  margin-left: 15px;
+}
+
+.bm-menu-wrap, .bm-overlay{
+  margin-top: -100px;
+}
+
+.siteHead{
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+}
+
+.siteLogo{
+  float: left;
+}
+
+.headroom-wrapper{
+  background-color: #f4f4f4; 
+}
+
+.siteHead img{
+  height: 46px;
+  margin-bottom: -9px !important;
+  margin-right: 5px;
+}
+
+.siteHead a{
+  vertical-align: bottom;
+}
+
+div.profile .avatar{
+  max-width: 450px !important;
+}
+
+span.profile{
+  width: 100%;
+}
